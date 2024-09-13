@@ -1,0 +1,20 @@
+{
+  "dependencies": {
+    "cli-table3": "^0.6.5",
+    "commander": "^12.1.0"
+  },
+  "name": "expense_tracker",
+  "version": "1.0.0",
+  "main": "main.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "bin": {
+    "expense-tracker": "main.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}
