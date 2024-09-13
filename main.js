@@ -111,6 +111,37 @@ program
     }
   });
 
+  program
+  .command('update')
+  .description('Update expense.')
+  .requiredOption('-id, --id <id>', ' of expense.')
+  .option('-d, --description <description>', 'Description of expense.')
+  .option('-a, --amount <amount>', 'Amount of expense.')
+  .action((options) => {
+    loadExpenses();
+    
+    const expenseToUpdate = globalState.data.find(item => item.id === parseInt(options.id));
+
+    if(!expenseToUpdate){
+        console.log(`No expense with ID:${options.id} found.`);
+        return;
+    }
+
+    if(options.description || options.amount){
+        if(options.amount < 0){
+            console.log("Amount cannot be negative.");
+            return;
+        }else{
+            expenseToUpdate.description = options.description || expenseToUpdate.description;
+            expenseToUpdate.amount = options.amount || expenseToUpdate.amount;
+            saveExpenses();
+            console.log(`Updated successfully. (ID:${options.id})`);
+        }
+    } else {
+        console.log("Add fields to update.")
+    }
+  });
+
 program
   .command('delete')
   .description('Delete expense.')
