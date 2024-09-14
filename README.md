@@ -36,7 +36,7 @@ For more information on this project idea, visit [roadmap.sh](https://roadmap.sh
 1. Clone this repository to your local machine:
 
     ```sh
-    git clone https://github.com/aimless-coder/expense_tracker.git
+    git clone https://github.com/aimless-coder/expense-tracker.git
     ```
 
 2. Navigate to the project directory:
