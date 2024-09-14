@@ -11,6 +11,7 @@ For more information on this project idea, visit [roadmap.sh](https://roadmap.sh
 - [Installation](#installation)
 - [Usage](#usage)
 - [Expense Categories](#expense-categories)
+- [File Structure](#file-structure)
 
 ## Features
 
