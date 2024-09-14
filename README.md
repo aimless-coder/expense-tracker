@@ -10,13 +10,6 @@ For more information on this project idea, visit [roadmap.sh](https://roadmap.sh
 - [Prerequisites](#prerequisites)
 - [Installation](#installation)
 - [Usage](#usage)
-    [Add a New Expense](#add-a-new-expense)
-  - [Update an Existing Expense](#update-an-existing-expense)
-  - [Delete an Expense](#delete-an-expense)
-  - [View a Summary of Expenses](#view-a-summary-of-expenses)
-  - [List Expenses](#list-expenses)
-  - [Set a Monthly Budget](#set-a-monthly-budget)
-  - [Save Expenses as CSV](#save-expenses-as-csv)
 - [Expense Categories](#expense-categories)
 
 ## Features
